@@ -2,7 +2,7 @@ require 'icalendar/logger'
 
 module Icalendar
 
-  MAX_LINE_LENGTH = 75
+  MAX_LINE_LENGTH = 400
 
   def self.logger
     @logger ||= Icalendar::Logger.new(STDERR)
